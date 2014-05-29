@@ -1,1 +1,19 @@
-//Here you add the page structure 
+//Here you add the page structure
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  height: 300px;
+  // text-align: center;
+  margin-top: 20px;
+
+}
+.headerthing{
+
+background: $orange;
+height: 100px;
+width: 300px;
+float: left;
+margin-right: 20px;
+text-align: center;
+
+}

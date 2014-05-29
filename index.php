@@ -10,14 +10,19 @@
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <!--[if IE 7]>     <html class="ie7"> <![endif]-->  
-        <!--[if IE 8]>     <html class="ie8"> <![endif]-->  
-        <!--[if IE 9]>     <html class="ie9"> <![endif]-->  
+        <!--[if IE 7]>     <html class="ie7"> <![endif]-->
+        <!--[if IE 8]>     <html class="ie8"> <![endif]-->
+        <!--[if IE 9]>     <html class="ie9"> <![endif]-->
         <!--[if !IE]><!--> <html>             <!--<![endif]-->
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <p>Hallo world. <br>This is a sass starter template by @leisonkennedy</p>
+        <div class="wrapper">
+            <div class="headerthing"></div>
+            <div class="headerthing"></div>
+            <div class="headerthing"></div>
+            <div class="clearfix"></div>
+        </div>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
