@@ -1,0 +1,1 @@
+sass --watch  sass/main.scss:css/main.css --style expanded --line-numbers
