@@ -2,18 +2,26 @@
 .wrapper{
   margin: 0 auto;
   width: 1000px;
-  height: 300px;
-  // text-align: center;
+  height: 100%;
+  text-align: center;
   margin-top: 20px;
+  @extend .clearfix;
+  background: $grey;
 
 }
 .headerthing{
 
-background: $orange;
-height: 100px;
-width: 300px;
-float: left;
-margin-right: 20px;
-text-align: center;
+  background: $orange;
+  height: 100px;
+  width: 30%;
+  // float: left;
+  margin:20px 10px;
+  // text-align: center;
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+  vertical-align: top;
+  font-family: $font-bold;
+  text-decoration:
 
 }

@@ -2790,28 +2790,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   outline: none;
 }
 
-.row:before, .row:after, .clearfix:before, .clearfix:after, .horz-list:after, .horz-list:before {
+.row:before, .row:after, .clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after, .horz-list:after, .horz-list:before {
   content: "";
   display: table;
 }
 
-.row:after, .clearfix:after, .horz-list:after {
+.row:after, .clearfix:after, .wrapper:after, .horz-list:after {
   clear: both;
 }
 
-.row, .clearfix, .horz-list {
+.row, .clearfix, .wrapper, .horz-list {
   zoom: 1;
 }
 
 /* a different sort of clearfix */
-.clearfix {
+.clearfix, .wrapper {
   zoom: 1;
 }
-.clearfix:before, .clearfix:after {
+.clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after {
   content: "";
   display: table;
 }
-.clearfix:after {
+.clearfix:after, .wrapper:after {
   clear: both;
 }
 
@@ -2872,16 +2872,21 @@ a:active {
   margin: 0 auto;
   width: 1000px;
   height: 300px;
+  text-align: center;
   margin-top: 20px;
+  background: #6c6c6c;
 }
 
 .headerthing {
   background: #f2b553;
   height: 100px;
-  width: 300px;
-  float: left;
-  margin-right: 20px;
-  text-align: center;
+  width: 30%;
+  margin: 20px 10px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-family: "geared_slabbold", Helvetica, sans-serif;
 }
 
 /* Import Media Queries */

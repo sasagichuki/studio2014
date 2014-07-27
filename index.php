@@ -18,9 +18,9 @@
     </head>
     <body>
         <div class="wrapper">
-            <div class="headerthing"></div>
-            <div class="headerthing"></div>
-            <div class="headerthing"></div>
+            <div class="headerthing"> Box 1 </div>
+            <div class="headerthing"> Box 2 </div>
+            <div class="headerthing"> Box 3 </div>
             <div class="clearfix"></div>
         </div>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
