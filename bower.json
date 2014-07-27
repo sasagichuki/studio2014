@@ -1,0 +1,24 @@
+{
+  "name": "sass-starter",
+  "version": "1.0",
+  "authors": [
+    "Charles Gichuki <Charles.gichuki@squaddigital.com>"
+  ],
+  "description": "A quick Full site starter with Sass.",
+  // "main": "index.php",
+  "keywords": [
+    "sass",
+    "starter",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sasagichuki/sass_starter",
+  "private": true
+  // "ignore": [
+  //   "**/.*",
+  //   "node_modules",
+  //   "bower_components",
+  //   "test",
+  //   "tests"
+  // ]
+}
