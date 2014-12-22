@@ -1,14 +1,25 @@
 //Here you add the page structure
-.wrapper{
+
+.area{
   margin: 0 auto;
-  width: 1000px;
-  height: 100%;
-  text-align: center;
-  margin-top: 20px;
+  width: 100%;
+  height: 10px;
+  // text-align: center;
+  // margin-top: 20px;
   @extend .clearfix;
-  background: $grey;
+  background: url(../images/background1.jpg) no-repeat center center fixed $grey;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  float: left;
 
 }
+
+.area2{
+  background: url(../images/background2.jpg) no-repeat center center fixed $grey;
+
+}
+
 .headerthing{
 
   background: $orange;
@@ -22,6 +33,6 @@
   zoom:1;
   vertical-align: top;
   font-family: $font-bold;
-  text-decoration:
+  text-decoration: none;
 
 }
